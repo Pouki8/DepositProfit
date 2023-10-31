@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La banque Postale</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./script.js" defer></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mon Compte Bancaire</h1>
+      <div>
+        <p>Montant initial :</p>
+        <input type="number" id="deposit" name="deposit" value="" />
+        <p>Taux :</p>
+        <input type="number" id="rate" name="rate" value="" />
+        <p>Objectif à atteindre :</p>
+        <input type="number" id="threshold" name="threshold" value="" />
+      </div>
+      <p>Pour connaître en combien d'années, le montant sera atteint :</p>
+      <button id="calcul">Cliquer ici</button>
+    </div>
+    <div class="container">
+      <div class="result"></div>
+    </div>
+  </body>
+</html>

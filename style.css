@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(184, 240, 240);
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+.result {
+  color: red;
+  font-size: 25px;
+  margin-top: 5em;
+}
